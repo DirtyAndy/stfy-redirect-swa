@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "route": "/favicon.ico",
+      "serve": "/favicon.ico"
+    },
+    {
+      "route": "/*",
+      "rewrite": "/api/redirect"
+    }
+  ]
+}
