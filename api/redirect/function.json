@@ -1,15 +1,12 @@
 {
+  "scriptFile": "index.js",
   "bindings": [
     {
       "authLevel": "anonymous",
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "methods": [
-        "get",
-        "head",
-        "options"
-      ],
+      "methods": ["get", "head", "options"],
       "route": "redirect"
     },
     {
