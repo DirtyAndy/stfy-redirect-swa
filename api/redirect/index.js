@@ -3,7 +3,7 @@ module.exports = async function (context, req) {
     const currentUrl = new URL(req.url);
     const path = currentUrl.pathname || "/";
     const qs = currentUrl.search || "";
-    const target = "https://safetypermit.io/s" + path + qs;
+    const target = "https://safetypermit.io/checkin" + path + qs;
     context.res = {
       status: 301,
       headers: {
